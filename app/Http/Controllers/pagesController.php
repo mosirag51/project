@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class pagesController extends Controller
 {
     public function index(){
-        $title = 'hello to index........... is commit';
+        $title = 'hello to index';
         return view('pages.index',compact('title')); //->with('title',$title);
         }
     public function about(){
